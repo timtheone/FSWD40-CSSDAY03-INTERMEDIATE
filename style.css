@@ -30,18 +30,21 @@ hr {
   background-color: black;
 }
 
+.border2 {
+  border-bottom: 3px solid black;
+}
+
 .table2 {
   margin-left: 20px;
   width: 380px;
   text-align: left;
+  border-bottom: 3px solid black;
 }
 
 .table2 td:nth-child(2) {
   text-align: left;
-  width: 165px;
+  padding-right: 87px;
 }
 
-tr.child_row td {
-    padding-left: 20px;
 
-}
+
