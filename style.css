@@ -1,0 +1,47 @@
+.wrapper {
+  width: 400px;
+}
+
+table, th, td {
+  border-bottom: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+  text-align: left;
+}
+
+td:last-child, td:nth-child(2) {
+  text-align: right;
+}
+
+th:nth-child(2) {
+  text-align: center;
+}
+
+
+
+hr {
+  height: 15px;
+  background-color: black;
+}
+
+.table2 {
+  margin-left: 20px;
+  width: 380px;
+  text-align: left;
+}
+
+.table2 td:nth-child(2) {
+  text-align: left;
+  width: 165px;
+}
+
+tr.child_row td {
+    padding-left: 20px;
+
+}
